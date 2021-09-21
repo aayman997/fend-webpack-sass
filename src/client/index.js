@@ -1,17 +1,19 @@
-import { checkForName } from './js/nameChecker'
-import { handleSubmit } from './js/formHandler'
+import { checkForName } from './js/nameChecker';
+import { handleSubmit } from './js/formHandler';
+import { getImages } from './js/images-api';
 
-import './styles/resets.scss'
-import './styles/base.scss'
-import './styles/form.scss'
-import './styles/footer.scss'
-import './styles/header.scss'
+import './styles/resets.scss';
+import './styles/base.scss';
+import './styles/form.scss';
+import './styles/footer.scss';
+import './styles/header.scss';
 
 console.log(checkForName);
 
-alert("I EXIST")
+alert('I EXIST');
 
 export {
-    checkForName,
-    handleSubmit
-}
+	checkForName,
+	handleSubmit,
+	getImages
+};
